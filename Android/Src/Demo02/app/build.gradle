@@ -7,7 +7,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.example.demo01"
+        applicationId "com.example.mydemo02"
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 1
@@ -38,4 +38,5 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
     implementation 'com.anton46:stepsview:0.0.2'
+
 }

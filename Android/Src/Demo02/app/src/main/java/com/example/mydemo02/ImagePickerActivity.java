@@ -1,17 +1,14 @@
-package com.example.demo01;
+package com.example.mydemo02;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
-    private Button mBtnStepview;
+public class ImagePickerActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
+        setContentView(R.layout.activity_image_picker);
     }
 }

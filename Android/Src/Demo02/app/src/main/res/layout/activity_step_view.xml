@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+<!--            <com.anton46.stepsview.StepsView-->
+<!--                android:id="@+id/stepview1"-->
+<!--                android:layout_width="700dp"-->
+<!--                android:layout_height="wrap_content">-->
+
+
+<!--            </com.anton46.stepsview.StepsView>-->
+        </LinearLayout>
+
+    </HorizontalScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_pre"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Previous"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            android:layout_marginLeft="60dp"/>
+
+        <Button
+            android:id="@+id/btn_bread_next"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:text="Next"
+            android:textAllCaps="false"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+</LinearLayout>
