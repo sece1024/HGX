@@ -39,3 +39,27 @@ sudo /etc/init.d/networking restart	# 重启network
 ## 搭建nginx后端服务器
 
 [Linux搭建服务器Node+Nginx+Tomcat+Redis Ubuntu篇_fw19940314的博客-CSDN博客](https://blog.csdn.net/fw19940314/article/details/80136824)
+
+## 搭建flask后端
+
+[Ubuntu-20.04 Flask Nginx uwsgi supervisor环境搭建_hapyandluck的博客-CSDN博客](https://blog.csdn.net/hapyandluck/article/details/108414754)
+
+### Python+flask+mysql
+
+```bash
+ sudo apt-get install mysql-server
+ #sudo apt-get install python-mysqldb
+```
+
+### 修改mysql密码
+
+```bash
+# 查看初始账号
+sudo vim /etc/mysql/debian.cnf
+# 使用初始账号登录
+mysql -u xxx -p
+# 使用mysql数据库
+use mysql
+
+```
+
