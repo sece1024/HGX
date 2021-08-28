@@ -145,7 +145,9 @@ sudo ufw allow from 192.xxx.xxx.x # 指定ip为192...的计算机所有端口
 sudo ufw delete allow from 192... # 关闭1902...
 
 ```
-
+## 终端美化
+https://blog.csdn.net/air_knight/article/details/109911039
+https://www.jianshu.com/p/d194d29e488c?open_source=weibo_search
 ## nginx
 
 ### 管理nginx进程
