@@ -174,7 +174,7 @@ sudo /etc/init.d/networking restart	# 重启network
 ## 搭建flask后端
 
 [Ubuntu-20.04 Flask Nginx uwsgi supervisor环境搭建_hapyandluck的博客-CSDN博客](https://blog.csdn.net/hapyandluck/article/details/108414754)
-
+https://blog.csdn.net/jspython/article/details/106019068?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_title~default-1.control&spm=1001.2101.3001.4242
 ### Python+flask+mysql
 
 ```bash
