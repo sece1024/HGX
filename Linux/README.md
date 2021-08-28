@@ -62,4 +62,9 @@ mysql -u xxx -p
 use mysql
 
 ```
+### 重装mysql
+https://blog.csdn.net/fanrongwoaini/article/details/107518693
+
+## Git
+
 
