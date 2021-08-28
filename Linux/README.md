@@ -146,6 +146,7 @@ sudo ufw delete allow from 192... # 关闭1902...
 
 ```
 ## 终端美化
+https://blog.csdn.net/zmx2473162621/article/details/108828584
 https://blog.csdn.net/air_knight/article/details/109911039
 https://www.jianshu.com/p/d194d29e488c?open_source=weibo_search
 ## nginx
