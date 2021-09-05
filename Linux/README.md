@@ -109,15 +109,15 @@ x ------------1
 
 -rwxrwxrwx (777) 每个人都有读写和执行的权限 
 
- 
+
 sudo chmod 600 ××× （只有所有者有读和写的权限） 
- 
+
 sudo chmod 644 ××× （所有者有读和写的权限，组用户只有读的权限） 
- 
+
 sudo chmod 700 ××× （只有所有者有读和写以及执行的权限） 
- 
+
 sudo chmod 666 ××× （每个人都有读和写的权限） 
- 
+
 sudo chmod 777 ××× （每个人都有读和写以及执行的权限） 
 
  
@@ -202,3 +202,6 @@ https://blog.csdn.net/fanrongwoaini/article/details/107518693
 ## Git
 https://blog.csdn.net/weixin_43970743/article/details/117450780
 
+## 词典
+
+https://blog.csdn.net/www_helloworld_com/article/details/85019862?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-0.control&spm=1001.2101.3001.4242
