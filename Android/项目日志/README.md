@@ -516,3 +516,39 @@ https://stackoverflow.com/questions/56716047/execution-failed-for-task-appcheckd
 # 简单侧滑栏
 
 https://github.com/mcxtzhang/SwipeDelMenuLayout/blob/master/README-cn.md
+
+
+
+# 问题与解决
+
+## RecyclerView 
+
+### 元素无法铺满的问题
+
+[(3条消息) recyclerview 嵌套 cardview item条目不能铺满或显示不全问题_onesidego的博客-CSDN博客](https://blog.csdn.net/qq_34900897/article/details/80333837)
+
+### 设置元素间距
+
+[(3条消息) RecyclerView设置Item的边距_ezconn的博客-CSDN博客](https://blog.csdn.net/ezconn/article/details/90449371)
+
+
+
+## CardView
+
+### 属性
+
+[(3条消息) Andorid--RecyclerView与CardView实现卡片列表_Amanduzhuojiang的博客-CSDN博客](https://blog.csdn.net/Amanduzhuojiang/article/details/78339355)
+
+[Android 使用CardView轻松实现卡片式设计 - 简书 (jianshu.com)](https://www.jianshu.com/p/573fc14a7ee5)
+
+
+
+## EditeText
+
+### 滑动编辑框与ScrollView发生冲突
+
+[(3条消息) Android-完美解决EditText和ScrollView的滚动冲突_王睿丶的博客-CSDN博客](https://blog.csdn.net/qq_27494201/article/details/102615053)
+
+[(3条消息) EditText和ScrollView冲突的解决_Android-CSDN博客](https://blog.csdn.net/u011531708/article/details/78354985?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_title~default-4.no_search_link&spm=1001.2101.3001.4242)
+
+[(3条消息) 【Android】解决ScrollView中嵌套EditText时的滑动滚动冲突_小豆芽儿的博客-CSDN博客](https://blog.csdn.net/xiaodouyaer624/article/details/79158300?utm_medium=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~default-4.no_search_link&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~default-4.no_search_link)
