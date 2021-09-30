@@ -552,3 +552,11 @@ https://github.com/mcxtzhang/SwipeDelMenuLayout/blob/master/README-cn.md
 [(3条消息) EditText和ScrollView冲突的解决_Android-CSDN博客](https://blog.csdn.net/u011531708/article/details/78354985?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_title~default-4.no_search_link&spm=1001.2101.3001.4242)
 
 [(3条消息) 【Android】解决ScrollView中嵌套EditText时的滑动滚动冲突_小豆芽儿的博客-CSDN博客](https://blog.csdn.net/xiaodouyaer624/article/details/79158300?utm_medium=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~default-4.no_search_link&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~default-4.no_search_link)
+
+# RxJava
+
+[(4条消息) Android：这是一份全面 & 详细的RxJava学习攻略_专注分享 Android干货-CSDN博客](https://blog.csdn.net/carson_ho/article/details/120326253)
+
+# Kotlin基础
+
+[Kotlin Tutorial (w3schools.com)](https://www.w3schools.com/kotlin/index.php)
