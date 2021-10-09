@@ -1,4 +1,0 @@
-/home/sece/Hgx/Gits/HGX/cpp/CMakeFiles/rebuild_cache.dir
-/home/sece/Hgx/Gits/HGX/cpp/CMakeFiles/edit_cache.dir
-/home/sece/Hgx/Gits/HGX/cpp/CMakeFiles/reconstruct.dir
-/home/sece/Hgx/Gits/HGX/cpp/CMakeFiles/cpp.dir

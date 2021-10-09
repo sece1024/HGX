@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/reconstruct.dir/tree/binarytree/reconstruct.cpp.o -o reconstruct 
