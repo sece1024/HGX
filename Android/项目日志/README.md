@@ -541,7 +541,7 @@ https://github.com/mcxtzhang/SwipeDelMenuLayout/blob/master/README-cn.md
 
 [Android 使用CardView轻松实现卡片式设计 - 简书 (jianshu.com)](https://www.jianshu.com/p/573fc14a7ee5)
 
-
+https://blog.csdn.net/qq_23900685/article/details/104297353)
 
 ## EditeText
 
@@ -552,6 +552,10 @@ https://github.com/mcxtzhang/SwipeDelMenuLayout/blob/master/README-cn.md
 [(3条消息) EditText和ScrollView冲突的解决_Android-CSDN博客](https://blog.csdn.net/u011531708/article/details/78354985?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_title~default-4.no_search_link&spm=1001.2101.3001.4242)
 
 [(3条消息) 【Android】解决ScrollView中嵌套EditText时的滑动滚动冲突_小豆芽儿的博客-CSDN博客](https://blog.csdn.net/xiaodouyaer624/article/details/79158300?utm_medium=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~default-4.no_search_link&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~default-4.no_search_link)
+
+# 颜色
+
+[(4条消息) Android样式：常用主题属性_无常的专栏-CSDN博客](
 
 # RxJava
 

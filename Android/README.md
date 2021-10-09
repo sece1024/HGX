@@ -1,3 +1,7 @@
+# 原型设计
+
+[六款优秀的App原型设计工具 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/415083329)
+
 # Android
 
 ## 创建activity类
@@ -260,6 +264,45 @@ object Singleton{
 }
 
 ```
+
+## 绑定控件
+
+* 在gradle文件中添加
+
+```
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+```
+
+- 在activity文件导入
+
+```kotlin
+import kotlinx.android.synthetic.main.activity_main.*
+```
+
+- 如果布局中存在id为`tv_text`的TextView
+
+```kotlin
+tv_text.text = "你好, kotlin!"
+```
+
+## 自定义Kotlin生成的Java类名
+
+- 在kt文件第一行加上
+
+``` kotlin
+@file:JvmName("KotlinTestEntity") 
+```
+
+- 之后就可以在Java中直接调用
+
+## 参考链接
+
+[Learning materials overview | Kotlin (kotlinlang.org)](https://kotlinlang.org/docs/learning-materials-overview.html)
+
+[在 Android 开发中开始使用 Kotlin  | Android 开发者  | Android Developers](https://developer.android.com/kotlin/get-started)
+
+[(15 封私信 / 32 条消息) Kotlin - 知乎 (zhihu.com)](https://www.zhihu.com/topic/20008824/hot)
 
 
 
