@@ -71,7 +71,11 @@ annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
 
 * 然后使用gradle包管理器自动同步glide库
 
+# 布局
 
+## ConstantLayout
+
+[约束布局ConstraintLayout看这一篇就够了 - 简书 (jianshu.com)](https://www.jianshu.com/p/17ec9bd6ca8a)
 
 # Kotlin
 
@@ -344,3 +348,42 @@ https://github.com/VictorAlbertos/BreadcrumbsView
 
 android.useAndroidX=true 表示“Android插件会使用对应的AndroidX库，而非Support库”；未设置时默认为false；
 android.enableJetifier=true 表示Android插件会通过重写其二进制文件来自动迁移现有的第三方库，以使用AndroidX依赖项；未设置时默认为false；
+
+## Android升级Gradle7后
+
+https://github.com/gradle/gradle/issues/18006
+
+Gradle 7 blocks insecure URIs, so the following no longer works:
+
+```
+maven { url "http://mycompany.com/mvn" }
+apply from: "http://mycompany.com/buildscript.gradle"
+```
+
+The workaround is to opt-in for each and every URL.
+
+```
+maven {
+    url "http://mycompany.com/mvn"
+    allowInsecureProtocol = true
+}
+apply from: resources.text.fromInsecureUri("http://mycompany.com/buildscript.gradle")
+```
+
+But this is not practical for anything more than a handful of projects.
+
+### Expected Behavior
+
+Provide `org.gradle.allow-insecure-protocol=true` to be set in the gradle.properties or elsewhere for a project wide opt-in.
+
+### Current Behavior
+
+Opt-in required for each and every unsecure URL.
+
+### Context
+
+Build fails.
+
+## Android Artic Fox 2020 3.1 新特性
+
+https://blog.csdn.net/zwluoyuxi/article/details/112912410
