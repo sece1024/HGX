@@ -1,3 +1,7 @@
+[TOC]
+
+
+
 # Java 基础
 
 ## 反射
@@ -181,5 +185,66 @@ I/System.out: getAge
     -------------------
 I/System.out: 小王 say hello to you.
     小王 is 63 years old.
+```
+
+## 枚举
+
+### 链接
+
+[A Guide to Java Enums | Baeldung](https://www.baeldung.com/a-guide-to-java-enums)
+
+[JavaGuide/用好Java中的枚举真的没有那么简单.md at master · Snailclimb/JavaGuide (github.com)](https://github.com/Snailclimb/JavaGuide/blob/master/docs/java/basis/用好Java中的枚举真的没有那么简单.md)
+
+### 优缺点
+
+**优点**
+
+- 使用枚举定义常量会让代码更有可读性
+- 允许编译时检查，预先记录可接收值的列表
+
+**缺点**
+
+- 
+
+### 自定义枚举方法
+
+*由于目前做的项目有用到图像质量检测，因此学习枚举的同时也用这个来举例。*
+
+```java
+/**
+ * 枚举：
+ * 图像质量检测
+ */
+public class Detection {
+    public enum DetectionState{
+        COLOR,          // 颜色
+        COLOR_CAST,     // 色偏
+        CLARITY,        // 清晰度
+        LUMINANCE,      // 亮度
+        BLUR            // 模糊度
+    }
+    private DetectionState status;
+
+    public boolean isColorDetect(){
+    /*
+     * 枚举类确保JVM中仅存在一个常量实例，因此可以安全地使用 “==” 运算符
+     * 如果两个值为空，使用“return getStatus().equals(DetectionState.COLOR);”
+     * 反倒会抛出空指针异常。
+     */
+        return getStatus() == DetectionState.COLOR;
+    }
+    // region getter and setter
+
+    public DetectionState getStatus() {
+        return status;
+    }
+    
+
+    public void setStatus(DetectionState status) {
+        this.status = status;
+    }
+
+    // endregion
+}
 ```
 

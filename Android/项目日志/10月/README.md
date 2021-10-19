@@ -66,3 +66,47 @@ public class test {
 
 }
 ```
+
+
+
+# 模拟器上无法打开相机
+
+## resolveActivity 判断返回Null
+
+[(4条消息) Android11踩坑之路：resolveActivity 判断返回Null_yhroppo的博客-CSDN博客](https://blog.csdn.net/yhroppo/article/details/109074775?utm_medium=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-2.no_search_link&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-2.no_search_link)
+
+[拍照  | Android 开发者  | Android Developers (google.cn)](https://developer.android.google.cn/training/camera/photobasics?hl=zh-cn)
+
+官方给出的拍摄照片函数中，在跳转界面直接先判断`takePictureIntent.resolveActivity(getPackageManager()) != null`
+
+```java
+    static final int REQUEST_IMAGE_CAPTURE = 1;
+
+    private void dispatchTakePictureIntent() {
+        Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+        if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
+            startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE);
+        }
+    }
+    
+```
+
+> 请注意，`startActivityForResult()` 方法受调用 `resolveActivity()`（返回可处理 Intent 的第一个 Activity 组件）的条件保护。执行此检查非常重要，因为如果您使用任何应用都无法处理的 Intent 调用 `startActivityForResult()`，您的应用就会崩溃。所以只要结果不是 Null，就可以放心使用 Intent。
+
+真机上可以正常运行，但是在模拟器上，这个返回值却总是为null导致相机无法打开。
+
+为了解决这个问题，可以再加一个条件。
+
+```java
+CameraManager cameraManager = (CameraManager) getSystemService(Context.CAMERA_SERVICE);
+String[] cameraIds = cameraManager.getCameraIdList();
+if (cameraIds.length > 0) {
+    //摄像头存在
+    if (cameraIds[0] != null || cameraIds[1] != null) {
+        isCamera = true;
+    }
+}
+```
+
+检查手机是否有摄像头，当 `isCamera`为 `true`时同样跳转到拍照界面。
+
