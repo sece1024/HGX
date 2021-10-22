@@ -169,3 +169,7 @@ public class ConnMySql {
     }
 }
 ```
+
+## 无法通过http请求控制服务器查询数据的原因
+
+- 连接`mysql`的驱动`mysql-connector-java`没有放入tomcat的lib文件夹，tomcat找不到驱动。
