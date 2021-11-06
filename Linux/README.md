@@ -205,3 +205,15 @@ https://blog.csdn.net/weixin_43970743/article/details/117450780
 ## 词典
 
 https://blog.csdn.net/www_helloworld_com/article/details/85019862?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-0.control&spm=1001.2101.3001.4242
+
+# 阿里云-Ubuntu20.04
+
+## vnc连接
+
+[阿里云 轻量应用服务器 vnc 远程桌面连接 - wakasann - 博客园 (cnblogs.com)](https://www.cnblogs.com/fsong/p/13663913.html)
+
+## 安装virtualbox
+
+[Problems with the installation of VirtualBox on Ubuntu 20.04.1 LTS - Stack Overflow](https://stackoverflow.com/questions/65599231/problems-with-the-installation-of-virtualbox-on-ubuntu-20-04-1-lts)
+
+[如何在 Ubuntu 20.04 上安装 VirtualBox - 云+社区 - 腾讯云 (tencent.com)](https://cloud.tencent.com/developer/article/1636687#:~:text=一、从 Ubuntu 软件源中安装 VirtualBox 从 Ubuntu 软件源中安装 VirtualBox,apt install virtualbox virtualbox - ext - pack)
